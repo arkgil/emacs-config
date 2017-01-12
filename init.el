@@ -1,6 +1,7 @@
 ;;(package-initialize)
 
 (load-file "~/.emacs.d/packages.el")
+(load-file "~/.emacs.d/theme.el")
 
 ;; hide top menu bar
 (menu-bar-mode -1)
