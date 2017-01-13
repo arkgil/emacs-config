@@ -10,3 +10,4 @@
 (load-file "~/.emacs.d/packages/elixir-mode.el")
 (load-file "~/.emacs.d/packages/highlight-parentheses.el")
 (load-file "~/.emacs.d/packages/smartparens.el")
+(load-file "~/.emacs.d/packages/neotree.el")
