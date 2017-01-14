@@ -15,6 +15,10 @@
 ;; display trailing whitespace
 (setq-default show-trailing-whitespace t)
 
+;; show column in programming modes
+(add-hook 'prog-mode-hook 'column-number-mode)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
