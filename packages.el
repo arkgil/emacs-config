@@ -11,3 +11,5 @@
 (load-file "~/.emacs.d/packages/highlight-parentheses.el")
 (load-file "~/.emacs.d/packages/smartparens.el")
 (load-file "~/.emacs.d/packages/neotree.el")
+(load-file "~/.emacs.d/packages/alchemist.el")
+(load-file "~/.emacs.d/packages/company.el")
