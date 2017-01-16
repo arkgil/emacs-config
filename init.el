@@ -21,6 +21,9 @@
 ;; sync buffers with files on disk
 (global-auto-revert-mode t)
 
+;; clear whitespaces before saving
+(add-hook 'before-save-hook 'whitespace-cleanup)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
