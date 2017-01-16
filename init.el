@@ -18,6 +18,9 @@
 ;; show column in programming modes
 (add-hook 'prog-mode-hook 'column-number-mode)
 
+;; sync buffers with files on disk
+(global-auto-revert-mode t)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
