@@ -14,3 +14,4 @@
 (load-file "~/.emacs.d/packages/alchemist.el")
 (load-file "~/.emacs.d/packages/company.el")
 (load-file "~/.emacs.d/packages/which-key.el")
+(load-file "~/.emacs.d/packages/magit.el")
