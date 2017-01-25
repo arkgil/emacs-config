@@ -15,3 +15,4 @@
 (load-file "~/.emacs.d/packages/company.el")
 (load-file "~/.emacs.d/packages/which-key.el")
 (load-file "~/.emacs.d/packages/magit.el")
+(load-file "~/.emacs.d/packages/web-mode.el")
