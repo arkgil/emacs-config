@@ -24,3 +24,5 @@
 (load-file "~/.emacs.d/packages/ruby-mode.el")
 (load-file "~/.emacs.d/packages/intero.el")
 (load-file "~/.emacs.d/packages/linum-mode.el")
+(load-file "~/.emacs.d/packages/helm.el")
+(load-file "~/.emacs.d/packages/projectile.el")

@@ -24,6 +24,8 @@
 ;; clear whitespaces before saving
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
+;; set font
+(set-frame-font "Source Code Pro" nil t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -35,10 +37,10 @@
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
  '(compilation-message-face (quote default))
- '(custom-enabled-themes (quote (github)))
+ '(custom-enabled-themes (quote (spacemacs-light)))
  '(custom-safe-themes
    (quote
-    ("f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "ec13410d459f1b67158c500d13d290560fc4dad2edaaa22e33a4d1df08e8f887" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
+    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "ec13410d459f1b67158c500d13d290560fc4dad2edaaa22e33a4d1df08e8f887" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
  '(fci-rule-color "#969896")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
@@ -57,7 +59,7 @@
     ("#183691" "#969896" "#a71d5d" "#969896" "#0086b3" "#795da3" "#a71d5d" "#969896")))
  '(package-selected-packages
    (quote
-    (monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
+    (helm-projectile projectile helm spacemacs-theme monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
  '(pdf-view-midnight-colors (quote ("#969896" . "#f8eec7")))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
@@ -90,4 +92,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "#fbf8ef" :foreground "#655370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "nil" :family "Source Code Pro")))))
