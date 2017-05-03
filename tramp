@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <17/03/02 14:40:36 /Users/arkadiuszgil/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <17/04/28 15:52:08 /Users/arkadiuszgil/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -195,8 +195,6 @@
   ("gid-string" "tit")
   ("git" "\\git")
   ("~" "/home/agiadm"))
- (["scp" nil "ssh" nil nil]
-  nil)
  (["ssh" nil "tide" nil nil]
   ("uname" "Linux 3.13.0-96-generic")
   ("locale" "LC_ALL=en_US.utf8")
@@ -214,4 +212,31 @@
   ("gid-integer" 1000)
   ("gid-string" "tide")
   ("git" "\\git")
-  ("env-u-option" t)))
+  ("env-u-option" t))
+ (["ssh" "pi" "192.168.0.14" nil nil]
+  ("uname" "Linux 4.4.50-v7+")
+  ("locale" "LC_ALL=C")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/pi")
+  ("file-exists" "test -e")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("gid-string" "pi")
+  ("~." "/bin/sh: 140: cd: can't cd to ~.")
+  ("~.z" "/bin/sh: 146: cd: can't cd to ~.z")
+  ("readlink" "\\readlink")
+  ("env-u-option" t)
+  ("git" "\\git")
+  ("uid-integer" 1000)
+  ("tmpdir" "/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch"))
+ (["ssh" "pi" "10.152.1.17" nil nil]
+  nil))

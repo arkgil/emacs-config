@@ -27,6 +27,8 @@
 ;; set font
 (set-frame-font "Source Code Pro" nil t)
 
+(add-to-list 'exec-path "/usr/local/bin/")
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -59,7 +61,7 @@
     ("#183691" "#969896" "#a71d5d" "#969896" "#0086b3" "#795da3" "#a71d5d" "#969896")))
  '(package-selected-packages
    (quote
-    (helm-projectile projectile helm spacemacs-theme monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
+    (racer rust-mode jabber-otr jabber helm-projectile projectile helm spacemacs-theme monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
  '(pdf-view-midnight-colors (quote ("#969896" . "#f8eec7")))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
