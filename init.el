@@ -6,6 +6,9 @@
 ;; hide top menu bar
 (menu-bar-mode -1)
 
+;; hide scroll bar
+(scroll-bar-mode -1)
+
 ;; highlight current line
 (global-hl-line-mode)
 
@@ -15,14 +18,14 @@
 ;; display trailing whitespace
 (setq-default show-trailing-whitespace t)
 
+;; clear whitespaces before saving
+(add-hook 'before-save-hook 'whitespace-cleanup)
+
 ;; show column in programming modes
 (add-hook 'prog-mode-hook 'column-number-mode)
 
 ;; sync buffers with files on disk
 (global-auto-revert-mode t)
-
-;; clear whitespaces before saving
-(add-hook 'before-save-hook 'whitespace-cleanup)
 
 ;; set font
 (set-frame-font "Source Code Pro" nil t)
@@ -39,10 +42,10 @@
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
  '(compilation-message-face (quote default))
- '(custom-enabled-themes (quote (spacemacs-light)))
+ '(custom-enabled-themes (quote (solarized-light)))
  '(custom-safe-themes
    (quote
-    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "ec13410d459f1b67158c500d13d290560fc4dad2edaaa22e33a4d1df08e8f887" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
+    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "ec13410d459f1b67158c500d13d290560fc4dad2edaaa22e33a4d1df08e8f887" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
  '(fci-rule-color "#969896")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
@@ -61,7 +64,7 @@
     ("#183691" "#969896" "#a71d5d" "#969896" "#0086b3" "#795da3" "#a71d5d" "#969896")))
  '(package-selected-packages
    (quote
-    (racer rust-mode jabber-otr jabber helm-projectile projectile helm spacemacs-theme monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
+    (fill-column-indicator solarized-theme protobuf-mode racer rust-mode jabber-otr jabber helm-projectile projectile helm spacemacs-theme monokai-theme github-theme intero haskell-mode ruby-mode elm-mode web-mode magit which-key elpy alchemist yaml-mode markdown-mode neotree erlang elixir-mode smartparens highlight-parentheses)))
  '(pdf-view-midnight-colors (quote ("#969896" . "#f8eec7")))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
@@ -94,4 +97,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#fbf8ef" :foreground "#655370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "nil" :family "Source Code Pro")))))
+ '(default ((t (:inherit nil :stipple nil :background "#fdf6e3" :foreground "#657b83" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "nil" :family "Source Code Pro")))))
