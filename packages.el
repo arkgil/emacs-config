@@ -27,4 +27,5 @@
 (load-file "~/.emacs.d/packages/helm.el")
 (load-file "~/.emacs.d/packages/projectile.el")
 (load-file "~/.emacs.d/packages/rust-mode.el")
-(load-file "~/.emacs.d/packages/fill-column-indicator.el")     
+(load-file "~/.emacs.d/packages/fill-column-indicator.el")
+(load-file "~/.emacs.d/packages/js2-mode.el")
